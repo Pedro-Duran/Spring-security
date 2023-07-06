@@ -25,6 +25,15 @@ public class Pedido {
 	private String urlImagem;
 	private String descricao;
 	
+	
+	public User getUser() {
+		return user;
+	}
+
+	public void setUser(User user) {
+		this.user = user;
+	}
+
 	@Enumerated(EnumType.STRING)
 	private StatusPedido status;
 	
